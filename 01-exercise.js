@@ -4,13 +4,13 @@ Write a javascript program to check two numbers and returns true if one of the
 number is 100 or if the sum of the two number is 100
 */
 
-// function CheckNumber(a, b){
-//     return (a === 100 || b === 100 || (a+b) === 100) ? true : false
-// }
-// console.log(CheckNumber(30, 70))
+function CheckNumber(a, b){
+    return (a === 100 || b === 100 || (a+b) === 100) ? true : false
+}
+console.log(CheckNumber(30, 70))
 // 0R
-// const isEqualTo100 = (a, b) => a === 100 || b === 100 || (a+b) === 100;
-// console.log(isEqualTo100(50, 50));
+const isEqualTo100 = (a, b) => a === 100 || b === 100 || (a+b) === 100;
+console.log(isEqualTo100(50, 50));
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //Exercise-02
@@ -19,21 +19,21 @@ number is 100 or if the sum of the two number is 100
 
 // indexedDB.hml indexedDB.js.html
 
-// const getExtension = (str) => str.slice(str.lastIndexOf('.'))
-// console.log(getExtension('index.html'))
+const getExtension = (str) => str.slice(str.lastIndexOf('.'))
+console.log(getExtension('index.html'))
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Exercise-03
 /*write a javascript program to replace every character in a given string with the
 character following it in the alaphabet*/
 
-// const moveCharasForword = (str) =>
-// str
-// .split('')
-// .map(char => String.fromCharCode(char.charCodeAt(0) + 1))
-// .join('');
+const moveCharasForword = (str) =>
+str
+.split('')
+.map(char => String.fromCharCode(char.charCodeAt(0) + 1))
+.join('');
 
-// console.log(moveCharasForword('abcd')) //bcde
+console.log(moveCharasForword('abcd')) //bcde
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Exercise-04
@@ -41,10 +41,10 @@ character following it in the alaphabet*/
 // Write a javascript program to get the current date.
 //Expected output : mm-dd-yyy, mm/dd/year or dd-mm-yyyy, dd/mm/yyyy
 
-// let currentDate = new Date();
-// console.log(
-//   `${currentDate.getDate()}/${currentDate.getMonth()+1}/${currentDate.getFullYear()}`
-// );
+let currentDate = new Date();
+console.log(
+  `${currentDate.getDate()}/${currentDate.getMonth()+1}/${currentDate.getFullYear()}`
+);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 /*Exercise - 05
